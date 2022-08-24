@@ -1,0 +1,44 @@
+<div class="page-container">
+  <form name="custom_form" onsubmit="return validForm()">
+    <div class="form-box">
+      <div class="input-row">
+        <input type="text" placeholder="Name*" name="name" />
+        <span class="error">Please enter your name</span>
+      </div>
+
+      <div class="input-row">
+        <input type="text" placeholder="Email*" name="email" />
+        <span class="error">Please enter your email</span>
+      </div>
+
+      <div class="input-row">
+        <input type="text" placeholder="Phone*" name="phone" />
+        <span class="error">Please enter your phone number</span>
+      </div>
+
+      <div class="input-row">
+        <select name="subject">
+          <option>Subject*</option>
+          <option>Price Inquire</option>
+          <option>Partnership</option>
+        </select>
+        <span class="error">Please choose a subject</span>
+      </div>
+
+      <div class="input-row">
+        <label class="check_label" for="conditions">
+          Accept all terms and conditions</label
+        >
+        <input type="checkbox" name="conditions" id="conditions" />
+        <span class="error">Please accept all terms and conditions</span>
+      </div>
+
+      <div class="input-row">
+        <textarea placeholder="Message" name="message"></textarea>
+        <span class="error">Please enter your message</span>
+      </div>
+
+      <input type="submit" value="Submit" />
+    </div>
+  </form>
+</div>
